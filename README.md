@@ -2,6 +2,8 @@
 
 Pricus is a web extension that lets you add any item from any e-commerce website and get notified about the price changes to that item. You can also set a threshold option where you specify the rate of reduction of cost for any product and after that threshold is met, it will notify you.
 
+API Repository: https://github.com/alpnix/Scrapista-API
+
 ## Features
 
 - **Add any item:** You can add any item from any e-commerce website by clicking on the Price Tracker icon in your browser toolbar and selecting the “Add Item” option. You can also edit or delete the items you have added from the same menu.
