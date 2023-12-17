@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricus</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800;900&family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <a href="#">
+            <img src="./icons/logo.png" alt="Logo">
+            Pricus
+        </a>
+        <form id="searchProduct">
+            <input autofocus autocomplete="off" placeholder="Search Product" name="product" id="product" type="text">
+        </form>
+    </header>
+    <hr>
+    <main class="boxes">
+        <!-- add boxes and other main elements -->
+        <div class="box">
+            <h3>Product 1</h3>
+            <img src="./images/box.png" alt="Box 1" width="50">
+            <p>price tag</p>
+        </div>
+
+        <div class="box">
+            <h3>Product 2</h3>
+            <img src="./images/box.png" alt="Box 2">
+            <p>price tag</p>
+        </div>
+
+        <div class="box">
+            <h3>Product 3</h3>
+            <img src="./images/box.png" alt="Box 3">
+            <p>price tag</p>
+        </div>
+
+        <div class="date subtitle">${data.date}</div>
+        <div class="product-info">
+            <div class="word">Product Title</div>
+            <div class="form subtitle">$${data.price}</div>
+        </div>
+        <div class="buttons">
+            <a href="${data.url}" class="btn more-info">Product Page</a>
+            <button data-word="${data.url}" class="btn delete">Delete</button>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
